@@ -9,7 +9,7 @@ const products = [
       colors: [
         {
           code: "black",
-          img:"./image/nb2002R.png"
+          img:"./images/nb2002R.png"
         },
         {
           code: "darkblue",
@@ -24,11 +24,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./image/samba.png",
+          img: "./images/samba.png",
         },
         {
           code: "green",
-          img: "./image/crater.png",
+          img: "./images/crater.png",
         },
       ],
     },
@@ -39,11 +39,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./image/air1.png",
+          img: "./images/air1.png",
         },
         {
           code: "green",
-          img: "./image/air2.png",
+          img: "./images/air2.png",
         },
       ],
     },
@@ -54,11 +54,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./image/blazer.png",
+          img: "./images/blazer.png",
         },
         {
           code: "lightgray",
-          img: "./image/blazer2.png",
+          img: "./images/blazer2.png",
         },
       ],
     },
@@ -69,11 +69,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./image/converse.png",
+          img: "./images/converse.png",
         },
         {
           code: "black",
-          img: "./image/crater.png",
+          img: "./images/crater.png",
         },
       ],
     },
