@@ -131,3 +131,23 @@ close.addEventListener("click", () => {
   payment.style.display = "none";
 });
 
+
+
+
+
+document.querySelector('.add-to-cart-button').addEventListener('click', () => {
+  const productElement = document.querySelector('.product');
+  const productTitle = productElement.querySelector('.product-title').innerText;
+  const productPrice = productElement.querySelector('.product-price').innerText;
+
+  document.getElementById('cart-item-title').innerText = `Product: ${productTitle}`;
+  document.getElementById('cart-item-price').innerText = `Price: ${productPrice}`;
+
+  document.getElementById('cart-item-details').classList.remove('hidden');
+});
+
+document.getElementById('close-button').addEventListener('click', () => {
+  document.getElementById('cart-item-details').classList.add('hidden');
+});
+
+
