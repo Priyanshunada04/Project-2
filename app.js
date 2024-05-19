@@ -8,12 +8,12 @@ const products = [
       price: 150,
       colors: [
         {
-          code: "black",
-          img:"./images/nb2002R.png"
+          code: "white",
+          img:"./image/nb-white.png"
         },
         {
-          code: "darkblue",
-          img: "./images/crater.png",
+          code: "black",
+          img: "./image/nb2002R.png",
         },
       ],
     },
@@ -24,11 +24,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./images/samba.png",
+          img: "./image/samba.png",
         },
         {
-          code: "green",
-          img: "./images/crater.png",
+          code: "black",
+          img: "./image/samba-black.png",
         },
       ],
     },
@@ -39,11 +39,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./images/air1.png",
+          img: "./image/air1.png",
         },
         {
-          code: "green",
-          img: "./images/air2.png",
+          code: "black",
+          img: "./image/air-black.png",
         },
       ],
     },
@@ -54,11 +54,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./images/blazer.png",
+          img: "./image/blazer.png",
         },
         {
-          code: "lightgray",
-          img: "./images/blazer2.png",
+          code: "black",
+          img: "./image/blazer-black.png",
         },
       ],
     },
@@ -69,11 +69,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./images/converse.png",
+          img: "./image/converse.png",
         },
         {
           code: "black",
-          img: "./images/crater.png",
+          img: "./image/crater.png",
         },
       ],
     },
@@ -130,8 +130,6 @@ productButton.addEventListener("click", () => {
 close.addEventListener("click", () => {
   payment.style.display = "none";
 });
-
-
 
 
 
