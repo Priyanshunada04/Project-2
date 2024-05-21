@@ -346,6 +346,8 @@ footer {
 }
 
 
+
+ 
 .add-to-cart-button {
     background-color: #ff6600; /* Orange */
     border: none;
@@ -391,3 +393,4 @@ footer {
     cursor: pointer;
     border-radius: 12px;
 }
+

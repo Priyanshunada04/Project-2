@@ -147,5 +147,3 @@ document.querySelector('.add-to-cart-button').addEventListener('click', () => {
 document.getElementById('close-button').addEventListener('click', () => {
   document.getElementById('cart-item-details').classList.add('hidden');
 });
-
-
