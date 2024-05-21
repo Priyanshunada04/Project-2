@@ -393,4 +393,7 @@ footer {
     cursor: pointer;
     border-radius: 12px;
 }
-
+.logo{
+    height: 20%;
+    width: 20%;
+}
