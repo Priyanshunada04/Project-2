@@ -69,11 +69,11 @@ const products = [
       colors: [
         {
           code: "white",
-          img: "./image/converse.png",
+          img: "./image/crater.png",
         },
         {
           code: "black",
-          img: "./image/crater.png",
+          img: "./image/converse.png",
         },
       ],
     },
@@ -122,6 +122,7 @@ currentProductSizes.forEach((size, index) => {
 const productButton = document.querySelector(".productBuyNow");
 const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
+const payButton = document.querySelector(".payButton");
 
 productButton.addEventListener("click", () => {
   payment.style.display = "flex";
@@ -130,6 +131,11 @@ productButton.addEventListener("click", () => {
 close.addEventListener("click", () => {
   payment.style.display = "none";
 });
+
+payButton.addEventListener("click", () => {
+  payment.style.display = "none";
+  alert("Shoe purchased successfully");
+})
 
 
 
